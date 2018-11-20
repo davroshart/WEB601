@@ -1,0 +1,21 @@
+/* css script for main body */
+.loginbtns
+{
+    float: right;
+    background-color: burlywood;
+    font-weight: bold;
+    height: 30px;
+    width: 90px;
+}
+.homeimage 
+{
+    transform: rotate(270deg);
+    position: relative;
+    height: 280px;
+    width: 513px;
+    top: 110px;
+    left: -50px;
+    float:left;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,184 @@
+/* a css script for Nav bar */
+HTML  CSS   Result
+Edit on 
+
+head
+{
+  background-color: greenyellow;/*#edd3b0;*/
+}
+
+body 
+{
+  margin: 0;
+  padding: 5;
+  /*background: #ffcc99;*/
+  background-color: #edd3b0;
+}
+
+.navbar .nav
+{
+      background-color: #904E0B;
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      clear: both;
+}
+
+.nav ul 
+{
+  list-style: none;
+  background-color: #904E0B;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+    
+ /* display: flex;
+  justify-content: space-around;*/
+}
+
+.nav ul li
+{
+   flex: 1;
+}
+
+.nav li 
+{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  color: #904E08;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+}
+/*   width: 100%;
+    display: inline-block;*/
+
+.navbar .nav li
+{
+    text-align: center;
+}
+ 
+.nav a 
+{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+    flex: 1;
+}
+ 
+.navbar .nav a:hover 
+{
+  background-color: #D48D45;
+}
+ 
+.navbar .nav a.active 
+{
+  background-color: #fff;
+  color: #904e0b;
+  cursor: default;
+}
+ 
+ .main 
+{
+	/* counter-reset: section-1, section-2, section-3, section-4; */
+    
+  background-color: #edd3b0;
+}
+
+ .main h1 
+{
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: bold;
+	font-family: 'Orienta', sans-serif;
+    text-align: center;
+	font-size: 36px;
+	line-height: 40px;
+	/* counter-increment: section-1;*/
+	/* counter-reset: section-2 section-3 section-4;*/
+}
+
+ .main h2 
+{
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 30px;
+	line-height: 40px;
+	counter-increment: section-2;
+	counter-reset: section-3 section-4;
+	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+	padding-bottom: 10px;
+}
+
+ .main h3 
+{
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 24px;
+	line-height: 40px;
+	counter-increment: section-3;
+	counter-reset: section-4;
+}
+
+ .main h4 
+{
+	margin: 0.8em 0 0.5em 0;
+	color: #333;
+	font-weight: normal;
+	font-family: 'Orienta', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	counter-increment: section-4;
+}
+/*
+ .main h1:before { content: counter(section-1) ". "; }
+ .main h2:before { content: counter(section-1) "." counter(section-2) " "; }
+ .main h3:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) " "; }
+ .main h4:before { content: counter(section-1) "." counter(section-2) "." counter(section-3) "." counter(section-4) " "; }
+*/
+@media screen and (min-width: 600px) 
+{
+    .nav li 
+    {
+        width: 120px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
+    }
+ 
+  /* Option 1 - Display Inline */
+    .nav li 
+    {
+        display: inline-block;
+        margin-right: -4px;
+    }
+ 
+  /* Options 2 - Float
+  .nav li 
+    {
+        float: left;
+    }
+  .nav ul 
+    {
+        overflow: auto;
+        width: 600px;
+        margin: 0 auto;
+    }
+  .nav 
+    {
+        background-color: #444;
+    }
+  */
+}
+
+.login
+{
+    border:solid 1px #00F;
+}
